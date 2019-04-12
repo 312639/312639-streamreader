@@ -1,0 +1,26 @@
+﻿<Window x:Class="_312639Reader_Challange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312639Reader_Challange"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button x:Name="Seventeen" Content="Click to see 2017 Sales" Click="Seventeen_Click"/>
+        <Button x:Name="Eighteen" Content="Click to See 2018 Sales" Click="Eighteen_Click"/>
+        <RadioButton x:Name="Jan" Content="January Sales"/>
+        <RadioButton x:Name="Feb" Content="Febuary Sales"/>
+        <RadioButton x:Name="Mar" Content="March Sales" />
+        <RadioButton x:Name="Apr" Content="April Sales"/>
+        <RadioButton x:Name="May" Content="May Sales"/>
+        <RadioButton x:Name="Jun" Content="June Sales"/>
+        <RadioButton x:Name="Jul" Content="July Sales"/>
+        <RadioButton x:Name="Aug" Content="August Sales"/>
+        <RadioButton x:Name="Sep" Content="September Sales"/>
+        <RadioButton x:Name="Oct" Content="October Sales"/>
+        <RadioButton x:Name="Nov" Content="November Sales"/>
+        <RadioButton x:Name="Dec" Content="Dcember Sales"/>
+        <Label x:Name="lblOutput"/>
+    </StackPanel>
+</Window>
